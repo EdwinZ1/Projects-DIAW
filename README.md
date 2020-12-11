@@ -12,5 +12,5 @@ npm set init.author.email "edwinzacatelco1998@gmail.com"
 ## URL de autor
 npm set init.author.url "example.com"
 ## URL de licencia
-npm set init.license "CCO" "EdwinZ1"
+npm set init.license "CCO" 
 
