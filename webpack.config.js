@@ -1,4 +1,5 @@
 const path = require('path')
+const ESLintPlugin = require('eslint-webpack-plugin')
 console.log('Ruta de Index.js: ${path.join(__dirname)}');
 module.exports = {
     // 1.- Especificando el archivo 'index' de entrda
@@ -23,5 +24,6 @@ module.exports = {
                 use: ['babel-loader']
             },
         ]
-    }
+    },
+    plugins : [new ESLintPlugin()]
 }
